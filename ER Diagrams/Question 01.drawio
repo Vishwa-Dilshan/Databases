@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="DA6UEbs1cKipzRBG13Ot">
-    <mxGraphModel dx="2267" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3266" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,6 +260,9 @@
             <mxPoint x="170" y="715" as="sourcePoint" />
             <mxPoint x="1080" y="700" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HgB3xjm5oIkwphWqE0pF-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Assumptions&lt;/strong&gt;&lt;/p&gt;&lt;ol dir=&quot;ltr&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;The number of doctors and the number of nurses (per ward) are derived attributes, calculated by counting the Doctor/Nurse records linked to that ward via the Assigned-to relationships, rather than being manually entered figures.&lt;/span&gt;&lt;/li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;A patient is assumed to have a single telephone number, while a nurse may have several contact numbers.&lt;/span&gt;&lt;/li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;The doctor in charge of a ward is captured through a separate Incharge relationship (Ward–Doctor), independent of the general ward-assignment relationship.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="430" width="780" x="-800" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
